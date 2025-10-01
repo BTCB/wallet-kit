@@ -1,6 +1,6 @@
 {
   "name": "@clayon/wallet-kit",
-  "version": "0.5.10",
+  "version": "0.5.11",
   "type": "module",
   "files": [
     "dist"
