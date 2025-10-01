@@ -17,7 +17,7 @@ export default defineConfig(({ mode }) => ({
     minify: true,
     esbuild: {
       target: "es2020",
-      // pure: mode === "production" ? ["console.log", "debugger"] : [],
+      pure: mode === "production" ? ["console.log", "debugger"] : [],
     },
     rollupOptions: {
       // make sure to externalize deps that shouldn't be bundled

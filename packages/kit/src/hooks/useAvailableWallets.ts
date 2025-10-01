@@ -22,9 +22,6 @@ export const useAvailableWallets = (defaultWallets: IDefaultWallet[]) => {
   // configured wallets
   const configuredWallets: IWallet[] = useMemo(() => {
     if (!isNonEmptyArray(defaultWallets)) return [];
-    console.log("availableWalletAdapters", availableWalletAdapters);
-    console.log("defaultWallets", defaultWallets);
-    console.log("!isNonEmptyArray(availableWalletAdapters): ", !isNonEmptyArray(availableWalletAdapters));
     if (!isNonEmptyArray(availableWalletAdapters)) {
       return defaultWallets.map(
         (item) =>
@@ -40,7 +37,6 @@ export const useAvailableWallets = (defaultWallets: IDefaultWallet[]) => {
       const foundAdapter = availableWalletAdapters.find(
         (walletAdapter) => doesAdapterMatchDefaultWallet(item, walletAdapter)
       );
-      console.log("foundAdapter", foundAdapter);
       if (foundAdapter) {
         return {
           ...item,

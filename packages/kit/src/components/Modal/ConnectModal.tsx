@@ -191,9 +191,6 @@ export const ConnectModal = (props: ConnectModalProps) => {
   const { configuredWallets, detectedWallets, select, connecting } =
     useWallet();
 
-  console.log('configuredWallets', configuredWallets);
-  console.log('detectedWallets', detectedWallets);
-
   const {
     onConnectSuccess = () => {},
     onConnectError = (err) => {
