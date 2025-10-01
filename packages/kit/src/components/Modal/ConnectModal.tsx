@@ -7,7 +7,7 @@ import { useWallet } from "../../hooks";
 import { isNonEmptyArray } from "../../utils";
 import Icon from "../Icon";
 import "./index.scss";
-import { BaseError, IWallet, KitError } from "@suiet/wallet-sdk";
+import { BaseError, IWallet, KitError } from "@clayon/wallet-sdk";
 
 export type ConnectModalProps = Extendable & {
   open?: boolean;

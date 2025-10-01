@@ -1,6 +1,6 @@
 {
-  "name": "@suiet/wallet-kit",
-  "version": "0.5.1",
+  "name": "@clayon/wallet-kit",
+  "version": "0.5.7",
   "type": "module",
   "files": [
     "dist"
@@ -25,14 +25,14 @@
   },
   "types": "./dist/index.d.ts",
   "dependencies": {
-    "@mysten/slush-wallet": "0.1.0",
-    "@mysten/sui": "1.28.2",
-    "@mysten/wallet-standard": "0.14.7",
-    "@mysten/zksend": "0.11.0",
+    "@mysten/slush-wallet": "0.2.0",
+    "@mysten/sui": "1.38.0",
+    "@mysten/wallet-standard": "0.17.0",
+    "@mysten/zksend": "0.14.0",
     "@radix-ui/react-dialog": "1.0.2",
-    "@suiet/wallet-sdk": "workspace:*",
+    "@clayon/wallet-sdk": "workspace:*",
     "@svgr/rollup": "6.5.1",
-    "@wallet-standard/core": "1.0.3",
+    "@wallet-standard/core": "1.1.1",
     "buffer": "6.0.3",
     "classnames": "2.3.2",
     "lodash-es": "4.17.21",
@@ -73,7 +73,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/suiet/wallet-kit.git"
+    "url": "https://github.com/btcb/wallet-kit.git"
   },
   "release": {
     "branches": [

@@ -9,7 +9,7 @@ export default defineConfig(({ mode }) => ({
     target: "es2020",
     lib: {
       entry: resolve(__dirname, "src/index.ts"),
-      name: "suietWalletSdk",
+      name: "btcbWalletSdk",
       // the proper extensions will be added
       fileName: "index",
     },

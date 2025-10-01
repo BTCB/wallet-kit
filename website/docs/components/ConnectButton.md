@@ -10,7 +10,7 @@ ConnectButton is the entry for users to connect their wallet.
 
 It manages the cycle of wallet connection, such as launching the wallet-select modal, displaying info of the account and showing the disconnect button when connected.
 
-We recommend using `ConnectButton` component to integrate Suiet wallet kit 🥳 But you can customize your own ConnectButton with our api, check [#Use Hooks Only](/docs/tutorial/hooks-only) for details.
+We recommend using `ConnectButton` component to integrate BTCB wallet kit 🥳 But you can customize your own ConnectButton with our api, check [#Use Hooks Only](/docs/tutorial/hooks-only) for details.
 
 ## Examples
 
@@ -20,7 +20,7 @@ We recommend using `ConnectButton` component to integrate Suiet wallet kit 🥳 
 import {
   ConnectButton,
   WalletProvider,
-} from '@suiet/wallet-kit';
+} from '@clayon/wallet-kit';
 
 function App() {
   return (
@@ -38,7 +38,7 @@ Sometimes you may want to hook in the connection events and do something with th
 >  If you are using hooks only, then simply wrap a try-catch block for the async  `select` method!
 
 ```jsx
-import {WalletProvider, ConnectButton, ErrorCode, BaseError} from "@suiet/wallet-kit";
+import {WalletProvider, ConnectButton, ErrorCode, BaseError} from "@clayon/wallet-kit";
 
 function App() {
   return (

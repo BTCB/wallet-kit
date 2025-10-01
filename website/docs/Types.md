@@ -22,7 +22,7 @@ export interface IDefaultWallet {
 example for customized defaultWallet item:
 
 ```typescript
-import IDefaultWallet from "@suiet/wallet-kit";
+import IDefaultWallet from "@clayon/wallet-kit";
 
 const myWallet: IDefaultWallet = {
   name: "myWallet",
@@ -65,7 +65,7 @@ export type WalletAccountExtended = WalletAccount  & { suinsName: string | null 
 
 ## IWalletAdapter
 
-https://github.com/suiet/wallet-kit/blob/main/packages/kit/src/types/wallet.ts#L39
+https://github.com/clayon/wallet-kit/blob/main/packages/kit/src/types/wallet.ts#L39
 
 ## Chain
 

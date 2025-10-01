@@ -15,8 +15,8 @@ import {
   formatSUI,
   defineSlushWallet,
   Uint8arrayTool,
-} from "@suiet/wallet-sdk";
-import { AllDefaultWallets, BrowserEnvDetector } from "@suiet/wallet-sdk";
+} from "@clayon/wallet-sdk";
+import { AllDefaultWallets, BrowserEnvDetector } from "@clayon/wallet-sdk";
 import { Transaction } from "@mysten/sui/transactions";
 import { Ed25519PublicKey } from '@mysten/sui/keypairs/ed25519';
 import { QueryClient, QueryClientProvider } from "react-query";

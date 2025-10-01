@@ -11,7 +11,7 @@ import {
   addressEllipsis,
   UnknownChain,
   BaseError,
-} from "@suiet/wallet-sdk";
+} from "@clayon/wallet-sdk";
 import { AccountModal } from "../Modal/AccountModal";
 
 export type ConnectButtonProps = Extendable & {

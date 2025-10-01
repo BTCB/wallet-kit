@@ -13,7 +13,7 @@ AccountModal is a modal that displays connected wallet account information with 
 Here is an example for you to use with your own account button.
 
 ```jsx
-import { useWallet, AccountModal } from '@suiet/wallet-kit';
+import { useWallet, AccountModal } from '@clayon/wallet-kit';
 
 function App() {
   const {connected} = useWallet()

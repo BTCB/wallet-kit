@@ -7,7 +7,7 @@ import {
   KitError,
   WalletEvent,
   WalletEventListeners,
-} from "@suiet/wallet-sdk";
+} from "@clayon/wallet-sdk";
 import {
   SuiReportTransactionEffectsInput,
   SuiSignAndExecuteTransactionBlockInput,

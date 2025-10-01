@@ -4,7 +4,7 @@ import { Extendable } from "../../types/utils";
 import * as Dialog from "@radix-ui/react-dialog";
 import { SvgClose, SvgCopy, SvgDisconnect } from "../Icon/SvgIcons";
 import { useWallet } from "../../hooks";
-import { addressEllipsis, BaseError } from "@suiet/wallet-sdk";
+import { addressEllipsis, BaseError } from "@clayon/wallet-sdk";
 import { copyToClipboard } from "../../utils/copy";
 import "./index.scss";
 

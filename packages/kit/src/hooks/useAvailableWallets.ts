@@ -1,7 +1,7 @@
 import { useMemo } from "react";
 import { isNonEmptyArray } from "../utils";
 import { useWalletAdapterDetection } from "./useWalletDetection";
-import { IDefaultWallet, IWallet, IWalletAdapter } from "@suiet/wallet-sdk";
+import { IDefaultWallet, IWallet, IWalletAdapter } from "@clayon/wallet-sdk";
 import { useInstallWebWalletAdapters } from "./useInstallWebWalletAdapters";
 
 export const useAvailableWallets = (defaultWallets: IDefaultWallet[]) => {

@@ -23,7 +23,7 @@ Make sure it runs in a React component under `WalletProvider`, and you've enable
 Here's how to resolve a wallet address to its SuiNS name:
 
 ```jsx
-import { useSuinsName } from '@suiet/wallet-kit';
+import { useSuinsName } from '@clayon/wallet-kit';
 
 function AddressDisplay({ address }) {
   const { chain } = useWallet()
@@ -52,7 +52,7 @@ function AddressDisplay({ address }) {
 Handle addresses that have multiple SuiNS names:
 
 ```jsx
-import { useSuinsName, useWallet } from '@suiet/wallet-kit';
+import { useSuinsName, useWallet } from '@clayon/wallet-kit';
 
 function MultipleNamesDisplay({ address }) {
   const { chain } = useWallet();

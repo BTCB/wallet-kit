@@ -7,7 +7,7 @@ import {
   AllDefaultWallets,
   defineSlushWallet,
   WalletProvider,
-} from "@suiet/wallet-kit";
+} from "@clayon/wallet-kit";
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>

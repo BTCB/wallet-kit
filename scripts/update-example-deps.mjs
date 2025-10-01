@@ -84,9 +84,9 @@ async function updatePackageJson(packageJsonPath, walletKitVersion, suiVersion) 
   let updated = false;
   
   // Update dependencies if they exist
-  if (packageJson.dependencies && packageJson.dependencies['@suiet/wallet-kit']) {
-    console.log(`Updating @suiet/wallet-kit from ${packageJson.dependencies['@suiet/wallet-kit']} to ${walletKitVersion} in ${packageJsonPath}`);
-    packageJson.dependencies['@suiet/wallet-kit'] = walletKitVersion;
+  if (packageJson.dependencies && packageJson.dependencies['@clayon/wallet-kit']) {
+    console.log(`Updating @suiet/wallet-kit from ${packageJson.dependencies['@clayon/wallet-kit']} to ${walletKitVersion} in ${packageJsonPath}`);
+    packageJson.dependencies['@clayon/wallet-kit'] = walletKitVersion;
     updated = true;
     
     if (packageJson.dependencies['@mysten/sui']) {

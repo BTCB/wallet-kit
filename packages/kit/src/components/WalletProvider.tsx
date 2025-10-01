@@ -45,7 +45,7 @@ import {
   WalletEvent,
   WalletEventListeners,
   WalletNotImplementError,
-} from "@suiet/wallet-sdk";
+} from "@clayon/wallet-sdk";
 import {
   ExecuteTransactionOptions,
   ExecuteTransactionResult,

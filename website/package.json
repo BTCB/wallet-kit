@@ -1,11 +1,11 @@
 {
-  "name": "suiet-kit-doc",
+  "name": "clayon-kit-doc",
   "version": "0.0.0",
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
-    "build": "pnpm --filter @suiet/wallet-kit run build && docusaurus build",
+    "build": "pnpm --filter @clayon/wallet-kit run build && docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "clear": "docusaurus clear",

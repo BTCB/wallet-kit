@@ -44,7 +44,7 @@ Next, let's import the `WalletProvider` and setup for your react project such th
 // src/index.js
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import { WalletProvider } from "@suiet/wallet-kit";
+import { WalletProvider } from "@clayon/wallet-kit";
 
 import App from "./App";
 
@@ -120,7 +120,7 @@ import {
   ConnectButton,
   useWallet,
   addressEllipsis,
-} from "@suiet/wallet-kit";
+} from "@clayon/wallet-kit";
 
 export default function App() {
   // Get access to the connected wallet
@@ -261,7 +261,7 @@ We've defined the smart contract target as well as the arguments, now it's time 
 Okay, get back to the code. Let's create an async function that creates and sends the transaction to the wallet for signing and execution.
 
 ```jsx
-import { useWallet } from "@suiet/wallet-kit";
+import { useWallet } from "@clayon/wallet-kit";
 import { Transaction } from "@mysten/sui";
 
 function createMintNftTxnBlock() {

@@ -2,7 +2,7 @@ import { useQuery } from "react-query";
 import { QueryKey, queryKey } from "../constants";
 import { useCallback } from "react";
 import { SuiClient } from "@mysten/sui/client";
-import { Chain, resolveAddressToSuiNSNames } from "@suiet/wallet-sdk";
+import { Chain, resolveAddressToSuiNSNames } from "@clayon/wallet-sdk";
 
 export interface UseSuinsNameParams {
   address: string | undefined;

@@ -5,7 +5,7 @@ import {
   AllDefaultWallets,
   defineSlushWallet,
   WalletProvider,
-} from "@suiet/wallet-kit";
+} from "@clayon/wallet-kit";
 
 /**
  * Custom provider component for integrating with third-party providers.

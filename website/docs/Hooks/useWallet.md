@@ -25,7 +25,7 @@ Make sure it runs in a React component under `WalletProvider`
 We start with a simple senario like getting information from the connected wallet .
 
 ```jsx
-import {useWallet} from '@suiet/wallet-kit'
+import {useWallet} from '@clayon/wallet-kit'
 
 function App() {
   const wallet = useWallet();
@@ -47,7 +47,7 @@ batch transactions in one call.
 Here we define a `moveCall` transaction to implement a simple nft minting example.
 
 ```jsx
-import {useWallet} from '@suiet/wallet-kit'
+import {useWallet} from '@clayon/wallet-kit'
 
 function App() {
   const wallet = useWallet();
@@ -99,7 +99,7 @@ Here is an example for signing a simple message "Hello World".
 
 
 ```tsx
-import {useWallet} from '@suiet/wallet-kit'
+import {useWallet} from '@clayon/wallet-kit'
 import * as tweetnacl from 'tweetnacl'
 
 function App() {
@@ -153,7 +153,7 @@ In a nutshell, eliminating the need to switch network for dapp is a better user 
 :::
 
 ```tsx
-import {useWallet} from '@suiet/wallet-kit'
+import {useWallet} from '@clayon/wallet-kit'
 import * as tweetnacl from 'tweetnacl'
 
 function App() {
@@ -235,7 +235,7 @@ Get all the accessible accounts returned by wallet.
 The getAccounts will return the permitted account list of the current wallet.
 
 ```jsx
-import {useWallet} from '@suiet/wallet-kit';
+import {useWallet} from '@clayon/wallet-kit';
 
 function YourComponent() {
   const wallet = useWallet();
@@ -260,7 +260,7 @@ Make sure the address you're switching to is available in the wallet's accounts.
 | `(address: string) => Promise<WalletAccount>` |         |
 
 ```tsx
-import { useWallet } from "@suiet/wallet-kit";
+import { useWallet } from "@clayon/wallet-kit";
 
 function YourComponent() {
   const wallet = useWallet();

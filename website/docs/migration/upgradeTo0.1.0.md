@@ -51,8 +51,8 @@ We have deprecated [`WalletProvider`](/docs/components/WalletProvider) input `su
 
 ```diff
 import ReactDOM from 'react-dom';
-+ import { useWallet } from '@suiet/wallet-kit';
-- import { getDefaultWallets, useWallet } from '@suiet/wallet-kit';
++ import { useWallet } from '@clayon/wallet-kit';
+- import { getDefaultWallets, useWallet } from '@clayon/wallet-kit';
 
 - const supportedWallets = getDefaultWallets();
 

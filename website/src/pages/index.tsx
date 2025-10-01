@@ -9,8 +9,8 @@ import {
   WalletProvider,
   defineSlushWallet,
   AllDefaultWallets,
-} from "@suiet/wallet-kit";
-import "@suiet/wallet-kit/style.css";
+} from "@clayon/wallet-kit";
+import "@clayon/wallet-kit/style.css";
 import KitBanner from "../../static/img/kit-banner.svg";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 import { CustomFields } from "@site/types/customFields";

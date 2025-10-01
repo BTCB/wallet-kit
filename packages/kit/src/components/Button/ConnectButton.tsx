@@ -5,7 +5,7 @@ import ConnectModal from "../Modal/ConnectModal";
 import { useWallet } from "../../hooks/useWallet";
 import "./index.scss";
 import WalletInfo from "../WalletInfo";
-import { BaseError } from "@suiet/wallet-sdk";
+import { BaseError } from "@clayon/wallet-sdk";
 
 export type ConnectButtonProps = Extendable & {
   label?: string;

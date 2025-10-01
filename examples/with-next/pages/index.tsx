@@ -5,7 +5,7 @@ import {
   AllDefaultWallets,
   defineSlushWallet,
   WalletProvider,
-} from "@suiet/wallet-kit";
+} from "@clayon/wallet-kit";
 import App from "../components/App";
 
 export default function Home() {
